@@ -1,0 +1,2296 @@
+{
+  "user": {
+    "id": 20,
+    "email": "hiep11102@gmail.com",
+    "full_name": "Hiep Do"
+  },
+  "jar_categories": [
+    {
+      "id": 1,
+      "name": "Necessity",
+      "description": "Necessity jar for 6-jars financial system"
+    },
+    {
+      "id": 2,
+      "name": "Play",
+      "description": "Play jar for 6-jars financial system"
+    },
+    {
+      "id": 3,
+      "name": "Education",
+      "description": "Education jar for 6-jars financial system"
+    },
+    {
+      "id": 4,
+      "name": "Investment",
+      "description": "Investment jar for 6-jars financial system"
+    },
+    {
+      "id": 5,
+      "name": "Charity",
+      "description": "Charity jar for 6-jars financial system"
+    },
+    {
+      "id": 6,
+      "name": "Savings",
+      "description": "Savings jar for 6-jars financial system"
+    }
+  ],
+  "monthly_income_entries": [
+    {
+      "user_id": 20,
+      "month_year": "2025-01-01",
+      "total_income_cents": 2956158200,
+      "allocation_percentages": {
+        "Necessity": 55,
+        "Play": 10,
+        "Education": 10,
+        "Investment": 10,
+        "Charity": 5,
+        "Savings": 10
+      }
+    },
+    {
+      "user_id": 20,
+      "month_year": "2025-02-01",
+      "total_income_cents": 2916762400,
+      "allocation_percentages": {
+        "Necessity": 55,
+        "Play": 10,
+        "Education": 10,
+        "Investment": 10,
+        "Charity": 5,
+        "Savings": 10
+      }
+    },
+    {
+      "user_id": 20,
+      "month_year": "2025-03-01",
+      "total_income_cents": 3115638100,
+      "allocation_percentages": {
+        "Necessity": 55,
+        "Play": 10,
+        "Education": 10,
+        "Investment": 10,
+        "Charity": 5,
+        "Savings": 10
+      }
+    },
+    {
+      "user_id": 20,
+      "month_year": "2025-04-01",
+      "total_income_cents": 2946441600,
+      "allocation_percentages": {
+        "Necessity": 55,
+        "Play": 10,
+        "Education": 10,
+        "Investment": 10,
+        "Charity": 5,
+        "Savings": 10
+      }
+    },
+    {
+      "user_id": 20,
+      "month_year": "2025-05-01",
+      "total_income_cents": 3056019900,
+      "allocation_percentages": {
+        "Necessity": 55,
+        "Play": 10,
+        "Education": 10,
+        "Investment": 10,
+        "Charity": 5,
+        "Savings": 10
+      }
+    },
+    {
+      "user_id": 20,
+      "month_year": "2025-06-01",
+      "total_income_cents": 2954050900,
+      "allocation_percentages": {
+        "Necessity": 55,
+        "Play": 10,
+        "Education": 10,
+        "Investment": 10,
+        "Charity": 5,
+        "Savings": 10
+      }
+    },
+    {
+      "user_id": 20,
+      "month_year": "2025-07-01",
+      "total_income_cents": 2939270600,
+      "allocation_percentages": {
+        "Necessity": 55,
+        "Play": 10,
+        "Education": 10,
+        "Investment": 10,
+        "Charity": 5,
+        "Savings": 10
+      }
+    }
+  ],
+  "user_jars": [
+    {
+      "user_id": 20,
+      "category_id": 1
+    },
+    {
+      "user_id": 20,
+      "category_id": 2
+    },
+    {
+      "user_id": 20,
+      "category_id": 3
+    },
+    {
+      "user_id": 20,
+      "category_id": 4
+    },
+    {
+      "user_id": 20,
+      "category_id": 5
+    },
+    {
+      "user_id": 20,
+      "category_id": 6
+    }
+  ],
+  "transactions": [
+    {
+      "jar_category_id": 1,
+      "amount_cents": -639700,
+      "occurred_at": "2025-01-01 15:20:49",
+      "description": "Rent payment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -88300,
+      "occurred_at": "2025-01-01 11:48:58",
+      "description": "Religious organization tithe",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -685600,
+      "occurred_at": "2025-01-02 11:52:43",
+      "description": "Phone bill payment",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -158000,
+      "occurred_at": "2025-01-03 20:03:34",
+      "description": "Grocery shopping at VinMart",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -250500,
+      "occurred_at": "2025-01-04 17:22:42",
+      "description": "Gas bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -963200,
+      "occurred_at": "2025-01-05 08:59:36",
+      "description": "Lunch at local restaurant",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -387900,
+      "occurred_at": "2025-01-05 19:14:15",
+      "description": "Coffee at Highlands",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -657700,
+      "occurred_at": "2025-01-06 11:22:09",
+      "description": "Phone bill payment",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -44000,
+      "occurred_at": "2025-01-06 11:50:09",
+      "description": "Cultural preservation donation",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -836400,
+      "occurred_at": "2025-01-07 18:44:49",
+      "description": "Internet bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -963800,
+      "occurred_at": "2025-01-08 12:40:06",
+      "description": "Grab ride",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -319200,
+      "occurred_at": "2025-01-08 21:24:10",
+      "description": "Hobby supplies",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -106100,
+      "occurred_at": "2025-01-09 11:22:13",
+      "description": "Gas bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -404000,
+      "occurred_at": "2025-01-10 17:45:58",
+      "description": "Gas bill payment",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -572000,
+      "occurred_at": "2025-01-10 15:08:14",
+      "description": "Hobby supplies",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -76700,
+      "occurred_at": "2025-01-10 11:03:11",
+      "description": "Cultural preservation donation",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -631800,
+      "occurred_at": "2025-01-11 08:21:52",
+      "description": "Rent payment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -78100,
+      "occurred_at": "2025-01-11 19:22:39",
+      "description": "Professional certification fee",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -604900,
+      "occurred_at": "2025-01-12 14:28:40",
+      "description": "Laundry service",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -825700,
+      "occurred_at": "2025-01-12 11:48:21",
+      "description": "Streaming service subscription",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -991900,
+      "occurred_at": "2025-01-13 08:48:57",
+      "description": "Public transportation",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -392700,
+      "occurred_at": "2025-01-13 13:41:55",
+      "description": "Gaming subscription",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -670800,
+      "occurred_at": "2025-01-14 09:27:56",
+      "description": "Electricity bill payment",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -980300,
+      "occurred_at": "2025-01-15 13:43:18",
+      "description": "Grocery shopping at VinMart",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -791900,
+      "occurred_at": "2025-01-16 11:48:19",
+      "description": "Rent payment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -885400,
+      "occurred_at": "2025-01-17 16:25:47",
+      "description": "Electricity bill payment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -558600,
+      "occurred_at": "2025-01-18 15:34:39",
+      "description": "Laundry service",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -828700,
+      "occurred_at": "2025-01-19 09:35:10",
+      "description": "Grab ride",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -354700,
+      "occurred_at": "2025-01-20 14:49:55",
+      "description": "Phone bill payment",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -85700,
+      "occurred_at": "2025-01-21 20:42:15",
+      "description": "Haircut",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -611600,
+      "occurred_at": "2025-01-22 12:19:55",
+      "description": "Breakfast at bakery",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -951700,
+      "occurred_at": "2025-01-23 14:12:04",
+      "description": "Household supplies",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -575400,
+      "occurred_at": "2025-01-23 13:34:45",
+      "description": "New headphones",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 4,
+      "amount_cents": -607500,
+      "occurred_at": "2025-01-23 21:47:53",
+      "description": "Investment book purchase",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -519300,
+      "occurred_at": "2025-01-24 16:50:09",
+      "description": "Laundry service",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -311300,
+      "occurred_at": "2025-01-24 13:37:58",
+      "description": "Weekend trip to Da Nang",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -603300,
+      "occurred_at": "2025-01-25 11:12:19",
+      "description": "Gas bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -506500,
+      "occurred_at": "2025-01-26 14:36:02",
+      "description": "Grab ride",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -925300,
+      "occurred_at": "2025-01-27 08:47:59",
+      "description": "Electricity bill payment",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -619400,
+      "occurred_at": "2025-01-28 17:01:41",
+      "description": "Phone bill payment",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -338200,
+      "occurred_at": "2025-01-28 15:26:27",
+      "description": "Coffee at Highlands",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -390000,
+      "occurred_at": "2025-01-29 10:38:05",
+      "description": "Phone bill payment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -617700,
+      "occurred_at": "2025-01-29 21:35:00",
+      "description": "New headphones",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -111500,
+      "occurred_at": "2025-01-30 15:15:48",
+      "description": "Public transportation",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -644400,
+      "occurred_at": "2025-01-30 15:27:36",
+      "description": "Bowling night",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -200200,
+      "occurred_at": "2025-01-31 21:36:26",
+      "description": "Grab ride",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -722100,
+      "occurred_at": "2025-02-01 17:25:41",
+      "description": "Internet bill payment",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -360600,
+      "occurred_at": "2025-02-01 20:56:57",
+      "description": "Sports equipment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -565000,
+      "occurred_at": "2025-02-02 17:57:49",
+      "description": "Pharmacy purchase",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -866200,
+      "occurred_at": "2025-02-02 17:40:01",
+      "description": "Bar tab",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -137500,
+      "occurred_at": "2025-02-02 21:01:51",
+      "description": "Workshop registration",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -166300,
+      "occurred_at": "2025-02-03 08:42:36",
+      "description": "Electricity bill payment",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -104200,
+      "occurred_at": "2025-02-03 16:06:48",
+      "description": "Community development project",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -272200,
+      "occurred_at": "2025-02-04 08:14:04",
+      "description": "Internet bill payment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -815500,
+      "occurred_at": "2025-02-05 17:50:54",
+      "description": "Pharmacy purchase",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -121800,
+      "occurred_at": "2025-02-05 21:28:52",
+      "description": "Children's charity contribution",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -531700,
+      "occurred_at": "2025-02-07 17:07:27",
+      "description": "New headphones",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -786200,
+      "occurred_at": "2025-02-08 19:13:05",
+      "description": "Breakfast at bakery",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -828600,
+      "occurred_at": "2025-02-08 19:23:28",
+      "description": "Hobby supplies",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -255000,
+      "occurred_at": "2025-02-08 16:52:14",
+      "description": "Educational webinar",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -630500,
+      "occurred_at": "2025-02-09 09:19:45",
+      "description": "Hobby supplies",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -142500,
+      "occurred_at": "2025-02-09 12:44:38",
+      "description": "Library membership",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -318600,
+      "occurred_at": "2025-02-11 18:18:04",
+      "description": "Rent payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -617800,
+      "occurred_at": "2025-02-12 16:03:25",
+      "description": "Public transportation",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -809000,
+      "occurred_at": "2025-02-13 09:28:24",
+      "description": "Grocery shopping at VinMart",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -183900,
+      "occurred_at": "2025-02-13 08:50:59",
+      "description": "Online course subscription",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 4,
+      "amount_cents": -208500,
+      "occurred_at": "2025-02-13 13:14:08",
+      "description": "Retirement fund contribution",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -200400,
+      "occurred_at": "2025-02-15 17:17:24",
+      "description": "Pharmacy purchase",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -411800,
+      "occurred_at": "2025-02-16 13:17:29",
+      "description": "Phone bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -596900,
+      "occurred_at": "2025-02-17 08:19:01",
+      "description": "Grab ride",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -742600,
+      "occurred_at": "2025-02-18 17:03:40",
+      "description": "Public transportation",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -301200,
+      "occurred_at": "2025-02-18 16:47:26",
+      "description": "Tutoring session",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -115900,
+      "occurred_at": "2025-02-20 19:42:48",
+      "description": "Rent payment",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -236100,
+      "occurred_at": "2025-02-21 17:32:35",
+      "description": "Grab ride",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -38800,
+      "occurred_at": "2025-02-21 19:08:37",
+      "description": "Volunteer program support",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -823100,
+      "occurred_at": "2025-02-22 15:45:33",
+      "description": "Household supplies",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -212400,
+      "occurred_at": "2025-02-24 17:10:33",
+      "description": "Grab ride",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -650800,
+      "occurred_at": "2025-02-25 21:55:23",
+      "description": "Breakfast at bakery",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -876100,
+      "occurred_at": "2025-02-26 10:48:52",
+      "description": "Movie tickets at CGV",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 4,
+      "amount_cents": -190900,
+      "occurred_at": "2025-02-27 14:06:36",
+      "description": "ETF purchase",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -385900,
+      "occurred_at": "2025-02-28 14:40:45",
+      "description": "Electricity bill payment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 4,
+      "amount_cents": -604700,
+      "occurred_at": "2025-02-28 15:27:41",
+      "description": "ETF purchase",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -140600,
+      "occurred_at": "2025-03-01 11:26:31",
+      "description": "Workshop registration",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 4,
+      "amount_cents": -212000,
+      "occurred_at": "2025-03-02 12:46:33",
+      "description": "Bond investment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 6,
+      "amount_cents": -477000,
+      "occurred_at": "2025-03-03 12:58:08",
+      "description": "Home purchase savings",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -601200,
+      "occurred_at": "2025-03-05 08:39:26",
+      "description": "Lunch at local restaurant",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -249200,
+      "occurred_at": "2025-03-06 08:59:57",
+      "description": "Breakfast at bakery",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -98500,
+      "occurred_at": "2025-03-09 10:37:20",
+      "description": "Movie tickets at CGV",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -68700,
+      "occurred_at": "2025-03-10 08:18:58",
+      "description": "Gas bill payment",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -642600,
+      "occurred_at": "2025-03-12 09:34:15",
+      "description": "Laundry service",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 4,
+      "amount_cents": -926500,
+      "occurred_at": "2025-03-12 19:50:51",
+      "description": "Cryptocurrency purchase",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -475700,
+      "occurred_at": "2025-03-13 14:09:55",
+      "description": "Pharmacy purchase",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -483600,
+      "occurred_at": "2025-03-14 19:55:08",
+      "description": "Breakfast at bakery",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -133900,
+      "occurred_at": "2025-03-14 21:43:46",
+      "description": "Sports equipment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -518700,
+      "occurred_at": "2025-03-15 10:22:38",
+      "description": "Pharmacy purchase",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -327900,
+      "occurred_at": "2025-03-16 10:45:46",
+      "description": "Grocery shopping at VinMart",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -83900,
+      "occurred_at": "2025-03-17 13:58:04",
+      "description": "Gas bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -657100,
+      "occurred_at": "2025-03-18 18:25:08",
+      "description": "Rent payment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -321400,
+      "occurred_at": "2025-03-18 08:16:57",
+      "description": "Weekend trip to Da Nang",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -92400,
+      "occurred_at": "2025-03-19 14:14:45",
+      "description": "Breakfast at bakery",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -169300,
+      "occurred_at": "2025-03-19 13:54:22",
+      "description": "Streaming service subscription",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -88000,
+      "occurred_at": "2025-03-20 19:32:52",
+      "description": "Laundry service",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -1011600,
+      "occurred_at": "2025-03-20 16:03:16",
+      "description": "Books from Fahasa",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 4,
+      "amount_cents": -254700,
+      "occurred_at": "2025-03-20 19:13:05",
+      "description": "Investment platform subscription",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -492600,
+      "occurred_at": "2025-03-21 13:45:46",
+      "description": "Grocery shopping at VinMart",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -353300,
+      "occurred_at": "2025-03-21 18:03:31",
+      "description": "New headphones",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -552900,
+      "occurred_at": "2025-03-22 21:04:12",
+      "description": "Lunch at local restaurant",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 6,
+      "amount_cents": -383700,
+      "occurred_at": "2025-03-22 20:52:53",
+      "description": "Holiday gift fund",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -289400,
+      "occurred_at": "2025-03-24 16:38:20",
+      "description": "Laundry service",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -234800,
+      "occurred_at": "2025-03-25 19:13:55",
+      "description": "Bowling night",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -801500,
+      "occurred_at": "2025-03-26 12:38:18",
+      "description": "Professional membership fee",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -122200,
+      "occurred_at": "2025-03-27 16:19:46",
+      "description": "Public transportation",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -243700,
+      "occurred_at": "2025-03-27 09:28:56",
+      "description": "Coffee at Highlands",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -363400,
+      "occurred_at": "2025-03-28 15:46:24",
+      "description": "Household supplies",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -359500,
+      "occurred_at": "2025-03-29 19:38:35",
+      "description": "Rent payment",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -601700,
+      "occurred_at": "2025-03-29 17:07:14",
+      "description": "Language learning app",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -687200,
+      "occurred_at": "2025-03-30 13:26:36",
+      "description": "Haircut",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 4,
+      "amount_cents": -604800,
+      "occurred_at": "2025-03-30 12:07:15",
+      "description": "Investment advisory fee",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -532400,
+      "occurred_at": "2025-04-01 12:43:50",
+      "description": "Lunch at local restaurant",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -627100,
+      "occurred_at": "2025-04-02 17:11:41",
+      "description": "Breakfast at bakery",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 6,
+      "amount_cents": -426900,
+      "occurred_at": "2025-04-02 21:22:57",
+      "description": "Health emergency fund",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -215000,
+      "occurred_at": "2025-04-03 21:25:47",
+      "description": "Spa treatment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -431300,
+      "occurred_at": "2025-04-04 20:16:58",
+      "description": "New headphones",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -682500,
+      "occurred_at": "2025-04-05 19:04:51",
+      "description": "Pharmacy purchase",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -191400,
+      "occurred_at": "2025-04-07 14:29:24",
+      "description": "Pharmacy purchase",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -27000,
+      "occurred_at": "2025-04-07 20:18:53",
+      "description": "Disaster relief fund",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -507400,
+      "occurred_at": "2025-04-08 20:52:48",
+      "description": "Laundry service",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -567800,
+      "occurred_at": "2025-04-09 13:26:23",
+      "description": "Haircut",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -133500,
+      "occurred_at": "2025-04-10 15:31:49",
+      "description": "Internet bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -538200,
+      "occurred_at": "2025-04-10 19:39:15",
+      "description": "Weekend trip to Da Nang",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -104600,
+      "occurred_at": "2025-04-12 15:55:49",
+      "description": "Rent payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -326200,
+      "occurred_at": "2025-04-13 20:30:01",
+      "description": "Haircut",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -45600,
+      "occurred_at": "2025-04-13 21:47:31",
+      "description": "Children's charity contribution",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -437500,
+      "occurred_at": "2025-04-14 09:52:04",
+      "description": "Internet bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -908200,
+      "occurred_at": "2025-04-14 13:29:19",
+      "description": "E-book purchase",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -115900,
+      "occurred_at": "2025-04-16 10:57:05",
+      "description": "Public transportation",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 4,
+      "amount_cents": -348600,
+      "occurred_at": "2025-04-16 16:16:13",
+      "description": "Retirement fund contribution",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -745200,
+      "occurred_at": "2025-04-17 21:16:47",
+      "description": "Educational software",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -595900,
+      "occurred_at": "2025-04-18 20:29:05",
+      "description": "Breakfast at bakery",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -174500,
+      "occurred_at": "2025-04-19 09:13:52",
+      "description": "Household supplies",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -906800,
+      "occurred_at": "2025-04-21 09:34:16",
+      "description": "Study materials",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -397800,
+      "occurred_at": "2025-04-22 12:53:50",
+      "description": "Haircut",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -812600,
+      "occurred_at": "2025-04-22 12:42:23",
+      "description": "Research database access",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -22500,
+      "occurred_at": "2025-04-22 12:34:59",
+      "description": "Animal shelter donation",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 6,
+      "amount_cents": -372200,
+      "occurred_at": "2025-04-23 10:06:44",
+      "description": "Holiday gift fund",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -329500,
+      "occurred_at": "2025-04-24 09:49:28",
+      "description": "Phone bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -391000,
+      "occurred_at": "2025-04-24 14:07:02",
+      "description": "Karaoke night",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -438000,
+      "occurred_at": "2025-04-25 12:56:30",
+      "description": "Grocery shopping at VinMart",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -528000,
+      "occurred_at": "2025-04-26 20:07:17",
+      "description": "Laundry service",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -250800,
+      "occurred_at": "2025-04-27 20:28:21",
+      "description": "Breakfast at bakery",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -190700,
+      "occurred_at": "2025-04-28 18:51:09",
+      "description": "Grab ride",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -179000,
+      "occurred_at": "2025-05-01 13:52:30",
+      "description": "Pharmacy purchase",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 4,
+      "amount_cents": -276900,
+      "occurred_at": "2025-05-01 14:19:59",
+      "description": "Dividend reinvestment",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -190000,
+      "occurred_at": "2025-05-02 16:29:44",
+      "description": "Internet bill payment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -638800,
+      "occurred_at": "2025-05-02 15:25:56",
+      "description": "Conference ticket",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -350900,
+      "occurred_at": "2025-05-04 20:39:22",
+      "description": "Breakfast at bakery",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -326600,
+      "occurred_at": "2025-05-04 18:35:38",
+      "description": "Dinner at fancy restaurant",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -616600,
+      "occurred_at": "2025-05-05 19:16:15",
+      "description": "Electricity bill payment",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -252200,
+      "occurred_at": "2025-05-05 14:53:35",
+      "description": "Concert tickets",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -228400,
+      "occurred_at": "2025-05-06 09:59:01",
+      "description": "Laundry service",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -286600,
+      "occurred_at": "2025-05-07 18:34:17",
+      "description": "Lunch at local restaurant",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -728600,
+      "occurred_at": "2025-05-08 14:20:32",
+      "description": "Laundry service",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -639100,
+      "occurred_at": "2025-05-09 15:04:03",
+      "description": "Electricity bill payment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -156600,
+      "occurred_at": "2025-05-10 11:12:59",
+      "description": "Haircut",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 4,
+      "amount_cents": -719300,
+      "occurred_at": "2025-05-10 19:13:53",
+      "description": "Cryptocurrency purchase",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -424000,
+      "occurred_at": "2025-05-11 12:56:46",
+      "description": "Bowling night",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -78100,
+      "occurred_at": "2025-05-12 20:40:15",
+      "description": "Gas bill payment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -418700,
+      "occurred_at": "2025-05-13 08:26:11",
+      "description": "Concert tickets",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -404000,
+      "occurred_at": "2025-05-14 20:18:44",
+      "description": "Sports equipment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -695300,
+      "occurred_at": "2025-05-15 14:42:59",
+      "description": "Haircut",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -614200,
+      "occurred_at": "2025-05-15 15:39:31",
+      "description": "Workshop registration",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -357400,
+      "occurred_at": "2025-05-16 16:28:24",
+      "description": "Rent payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -212900,
+      "occurred_at": "2025-05-17 08:07:54",
+      "description": "Grab ride",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -368800,
+      "occurred_at": "2025-05-17 14:32:07",
+      "description": "Weekend trip to Da Nang",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -584600,
+      "occurred_at": "2025-05-18 13:14:12",
+      "description": "Household supplies",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -140300,
+      "occurred_at": "2025-05-18 20:48:12",
+      "description": "Hobby supplies",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -677700,
+      "occurred_at": "2025-05-21 20:16:12",
+      "description": "Gas bill payment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -342600,
+      "occurred_at": "2025-05-22 21:56:11",
+      "description": "Rent payment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -185600,
+      "occurred_at": "2025-05-24 13:15:27",
+      "description": "Grocery shopping at VinMart",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -551400,
+      "occurred_at": "2025-05-26 17:36:07",
+      "description": "Pharmacy purchase",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -353200,
+      "occurred_at": "2025-05-26 12:09:54",
+      "description": "Sports equipment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -411200,
+      "occurred_at": "2025-05-27 15:54:37",
+      "description": "Grab ride",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -595200,
+      "occurred_at": "2025-05-28 12:45:17",
+      "description": "Pharmacy purchase",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -650500,
+      "occurred_at": "2025-05-29 17:37:49",
+      "description": "Grab ride",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -328800,
+      "occurred_at": "2025-05-29 14:09:17",
+      "description": "Movie tickets at CGV",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -642000,
+      "occurred_at": "2025-05-30 19:14:51",
+      "description": "Pharmacy purchase",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -424100,
+      "occurred_at": "2025-05-30 09:35:26",
+      "description": "Movie tickets at CGV",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -730900,
+      "occurred_at": "2025-05-30 10:14:45",
+      "description": "Online course subscription",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -58200,
+      "occurred_at": "2025-05-30 14:50:19",
+      "description": "Homeless shelter support",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 4,
+      "amount_cents": -483400,
+      "occurred_at": "2025-05-31 18:32:43",
+      "description": "Stock purchase",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -247900,
+      "occurred_at": "2025-06-01 18:25:38",
+      "description": "Internet bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -536800,
+      "occurred_at": "2025-06-01 12:25:04",
+      "description": "Gaming subscription",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -554500,
+      "occurred_at": "2025-06-02 08:04:37",
+      "description": "Haircut",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -370400,
+      "occurred_at": "2025-06-02 18:42:19",
+      "description": "Skill development course",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -723500,
+      "occurred_at": "2025-06-03 13:49:02",
+      "description": "Grocery shopping at VinMart",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -240100,
+      "occurred_at": "2025-06-03 10:42:51",
+      "description": "Concert tickets",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -631000,
+      "occurred_at": "2025-06-04 18:26:22",
+      "description": "Grab ride",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -385700,
+      "occurred_at": "2025-06-05 08:11:17",
+      "description": "Water bill payment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -338500,
+      "occurred_at": "2025-06-05 17:35:30",
+      "description": "E-book purchase",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -410700,
+      "occurred_at": "2025-06-06 10:13:18",
+      "description": "Internet bill payment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -680500,
+      "occurred_at": "2025-06-07 21:42:23",
+      "description": "Electricity bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -403300,
+      "occurred_at": "2025-06-07 16:20:37",
+      "description": "Spa treatment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -38700,
+      "occurred_at": "2025-06-07 12:16:17",
+      "description": "Healthcare charity",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -526800,
+      "occurred_at": "2025-06-08 10:15:33",
+      "description": "Tutoring session",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -430400,
+      "occurred_at": "2025-06-09 10:01:10",
+      "description": "Rent payment",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -378200,
+      "occurred_at": "2025-06-11 19:14:09",
+      "description": "Electricity bill payment",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -208800,
+      "occurred_at": "2025-06-12 19:48:25",
+      "description": "Gaming subscription",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -488600,
+      "occurred_at": "2025-06-14 08:59:04",
+      "description": "Electricity bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -199400,
+      "occurred_at": "2025-06-15 08:40:50",
+      "description": "Skill development course",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -226500,
+      "occurred_at": "2025-06-16 18:38:55",
+      "description": "Electricity bill payment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -347300,
+      "occurred_at": "2025-06-17 11:55:12",
+      "description": "Electricity bill payment",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -458700,
+      "occurred_at": "2025-06-17 19:36:41",
+      "description": "Library membership",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -762000,
+      "occurred_at": "2025-06-18 13:02:57",
+      "description": "Laundry service",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -472500,
+      "occurred_at": "2025-06-19 19:18:05",
+      "description": "Grocery shopping at VinMart",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -281800,
+      "occurred_at": "2025-06-20 20:19:05",
+      "description": "Gas bill payment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -544400,
+      "occurred_at": "2025-06-20 18:41:55",
+      "description": "Movie tickets at CGV",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -147900,
+      "occurred_at": "2025-06-21 19:52:39",
+      "description": "Gas bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -402100,
+      "occurred_at": "2025-06-21 19:57:18",
+      "description": "Gaming subscription",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 4,
+      "amount_cents": -241600,
+      "occurred_at": "2025-06-21 19:12:06",
+      "description": "Cryptocurrency purchase",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -781800,
+      "occurred_at": "2025-06-22 12:53:14",
+      "description": "Breakfast at bakery",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -685700,
+      "occurred_at": "2025-06-23 08:34:53",
+      "description": "Breakfast at bakery",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -223700,
+      "occurred_at": "2025-06-24 21:36:23",
+      "description": "Pharmacy purchase",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -13500,
+      "occurred_at": "2025-06-24 09:55:22",
+      "description": "Food bank donation",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -643700,
+      "occurred_at": "2025-06-25 17:17:40",
+      "description": "Haircut",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -454000,
+      "occurred_at": "2025-06-26 09:23:04",
+      "description": "Rent payment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -187900,
+      "occurred_at": "2025-06-26 18:28:47",
+      "description": "Concert tickets",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -778200,
+      "occurred_at": "2025-06-27 08:52:23",
+      "description": "Phone bill payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -587600,
+      "occurred_at": "2025-06-27 17:43:24",
+      "description": "Gaming subscription",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -217100,
+      "occurred_at": "2025-06-28 11:01:29",
+      "description": "Pharmacy purchase",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -436700,
+      "occurred_at": "2025-06-29 16:15:18",
+      "description": "Breakfast at bakery",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -279700,
+      "occurred_at": "2025-06-30 09:40:23",
+      "description": "Lunch at local restaurant",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -170600,
+      "occurred_at": "2025-06-30 19:39:45",
+      "description": "Sports equipment",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -731900,
+      "occurred_at": "2025-07-01 19:54:53",
+      "description": "Lunch at local restaurant",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -609100,
+      "occurred_at": "2025-07-01 18:58:31",
+      "description": "Concert tickets",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -348100,
+      "occurred_at": "2025-07-01 15:21:38",
+      "description": "Tutoring session",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -850400,
+      "occurred_at": "2025-07-02 09:51:43",
+      "description": "Grocery shopping at VinMart",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -315600,
+      "occurred_at": "2025-07-04 19:14:38",
+      "description": "Haircut",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -649900,
+      "occurred_at": "2025-07-05 11:55:21",
+      "description": "Lunch at local restaurant",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -617000,
+      "occurred_at": "2025-07-05 08:10:08",
+      "description": "Spa treatment",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -229300,
+      "occurred_at": "2025-07-06 20:38:04",
+      "description": "Electricity bill payment",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -815500,
+      "occurred_at": "2025-07-07 19:57:59",
+      "description": "Household supplies",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -330000,
+      "occurred_at": "2025-07-08 21:40:22",
+      "description": "Public transportation",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -788200,
+      "occurred_at": "2025-07-09 16:14:41",
+      "description": "Internet bill payment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -60300,
+      "occurred_at": "2025-07-09 10:28:29",
+      "description": "Homeless shelter support",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -186500,
+      "occurred_at": "2025-07-10 13:01:00",
+      "description": "Lunch at local restaurant",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -589100,
+      "occurred_at": "2025-07-11 21:35:43",
+      "description": "Lunch at local restaurant",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -759500,
+      "occurred_at": "2025-07-13 12:00:26",
+      "description": "Phone bill payment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -480500,
+      "occurred_at": "2025-07-13 19:32:54",
+      "description": "Online course subscription",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -423400,
+      "occurred_at": "2025-07-14 15:29:15",
+      "description": "Pharmacy purchase",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -103400,
+      "occurred_at": "2025-07-15 17:32:07",
+      "description": "Internet bill payment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -882300,
+      "occurred_at": "2025-07-16 18:34:03",
+      "description": "Laundry service",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -338900,
+      "occurred_at": "2025-07-17 20:02:44",
+      "description": "Household supplies",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -504700,
+      "occurred_at": "2025-07-18 11:42:14",
+      "description": "Haircut",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -374800,
+      "occurred_at": "2025-07-19 15:27:18",
+      "description": "Electricity bill payment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -900300,
+      "occurred_at": "2025-07-20 18:47:20",
+      "description": "Internet bill payment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -547300,
+      "occurred_at": "2025-07-21 21:32:43",
+      "description": "Rent payment",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -788800,
+      "occurred_at": "2025-07-22 16:20:38",
+      "description": "Water bill payment",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -789200,
+      "occurred_at": "2025-07-23 09:18:04",
+      "description": "Electricity bill payment",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 5,
+      "amount_cents": -13400,
+      "occurred_at": "2025-07-23 11:52:06",
+      "description": "Children's charity contribution",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 2,
+      "amount_cents": -608900,
+      "occurred_at": "2025-07-25 17:20:41",
+      "description": "Coffee at Highlands",
+      "source": "Web",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -370600,
+      "occurred_at": "2025-07-26 14:01:35",
+      "description": "Laundry service",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -822900,
+      "occurred_at": "2025-07-27 08:41:34",
+      "description": "Grocery shopping at VinMart",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -833800,
+      "occurred_at": "2025-07-28 17:04:18",
+      "description": "Haircut",
+      "source": "Automatic",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -270800,
+      "occurred_at": "2025-07-29 19:15:44",
+      "description": "Haircut",
+      "source": "Branch",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 3,
+      "amount_cents": -104200,
+      "occurred_at": "2025-07-29 21:55:03",
+      "description": "Educational software",
+      "source": "ATM",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -80200,
+      "occurred_at": "2025-07-30 20:54:20",
+      "description": "Grab ride",
+      "source": "Mobile App",
+      "user_id": 20
+    },
+    {
+      "jar_category_id": 1,
+      "amount_cents": -881200,
+      "occurred_at": "2025-07-31 11:17:20",
+      "description": "Electricity bill payment",
+      "source": "Mobile App",
+      "user_id": 20
+    }
+  ]
+}
