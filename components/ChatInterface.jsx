@@ -34,7 +34,7 @@ const ChatInterface = ({ isOpen, onClose }) => {
     {
       id: 1,
       role: 'assistant',
-      content: 'Xin chào! Tôi là trợ lý tài chính AI của VPBank. Tôi có thể giúp bạn với quản lý tài chính, lập kế hoạch ngân sách, và các câu hỏi về sản phẩm VPBank. Bạn cần hỗ trợ gì?',
+      content: 'Xin chào! Tôi là trợ lý tài chính AI của Jargon AI. Tôi có thể giúp bạn với quản lý tài chính, lập kế hoạch ngân sách, và các câu hỏi về sản phẩm Jargon AI. Bạn cần hỗ trợ gì?',
       timestamp: new Date()
     }
   ]);
@@ -143,7 +143,7 @@ const ChatInterface = ({ isOpen, onClose }) => {
       {
         id: 1,
         role: 'assistant',
-        content: 'Xin chào! Tôi là trợ lý tài chính AI của VPBank. Tôi có thể giúp bạn với quản lý tài chính, lập kế hoạch ngân sách, và các câu hỏi về sản phẩm VPBank. Bạn cần hỗ trợ gì?',
+        content: 'Xin chào! Tôi là trợ lý tài chính AI của Jargon AI. Tôi có thể giúp bạn với quản lý tài chính, lập kế hoạch ngân sách, và các câu hỏi về sản phẩm Jargon AI. Bạn cần hỗ trợ gì?',
         timestamp: new Date()
       }
     ]);
@@ -157,7 +157,7 @@ const ChatInterface = ({ isOpen, onClose }) => {
       <div className="flex items-center justify-between p-4 border-b border-gray-200 bg-green-600 text-white rounded-t-lg">
         <div className="flex items-center gap-2">
           <Bot className="w-5 h-5" />
-          <span className="font-semibold">VPBank AI Assistant</span>
+          <span className="font-semibold">Jargon AI AI Assistant</span>
         </div>
         <div className="flex items-center gap-2">
           <Button

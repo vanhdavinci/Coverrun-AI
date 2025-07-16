@@ -1,4 +1,4 @@
-VPBank Technology Hackathon 2025
+Jargon AI Technology Hackathon 2025
 General Brief 
 
 Please fill up this table and use this document as a template to write your proposal. 
@@ -39,11 +39,11 @@ Architecture of Solution	18-20
 
 
 
-Jargon AI: Intelligent Financial Management for VPBank
+Jargon AI: Intelligent Financial Management for Jargon AI
 
 Solutions Introduction 
 Jargon AI: Intelligent Finance AI Agent
-Jargon AI is an AI financial planning product specifically designed for VPBank. It is intended for supporting citizens of Vietnam toward financial strength and wealth through a sophisticated, personalized, and smart way toward managing money. Unlike the traditional fixed-jar-based approach, the Jargon AI actively divides the monthly income, actively predicts spending patterns, provides personalized recommendations, and complements the services provided by VPBank, offering a fully flexible and user-centric financial planning service.
+Jargon AI is an AI financial planning product specifically designed for Jargon AI. It is intended for supporting citizens of Vietnam toward financial strength and wealth through a sophisticated, personalized, and smart way toward managing money. Unlike the traditional fixed-jar-based approach, the Jargon AI actively divides the monthly income, actively predicts spending patterns, provides personalized recommendations, and complements the services provided by Jargon AI, offering a fully flexible and user-centric financial planning service.
 Main Features
 Jargon AI's core functions are rooted in some of the most sophisticated AI methods, providing an efficient and hassle-free financial administration process.
 1.	Predictive & Dynamic Jar Allocation
@@ -154,16 +154,16 @@ How It Works (Behind the Scenes)
 •	Real-time insights. By blending your own data with smart analyses (and even external knowledge when needed), the chatbot gives you personalized advice that evolves with your habits.
 
 
-4.	Personalized VPBank Product Promotion
-Jargon artificial intelligence will use its information analysis and understanding of customer monetary habits to propose appropriate VPBank products and services, promoting a strong association between the consumer and the financial institution.
+4.	Personalized Jargon AI Product Promotion
+Jargon artificial intelligence will use its information analysis and understanding of customer monetary habits to propose appropriate Jargon AI products and services, promoting a strong association between the consumer and the financial institution.
 •	Loan Level Suggestions:
-o	The Jargon Machine Intelligence based on the client's past earnings, spending patterns, and creditworthiness can propose appropriate loan amounts that they can comfortably afford and borrow from VPBank. This feature enables users to make informed decisions on financing during the promotion of sound lending.
+o	The Jargon Machine Intelligence based on the client's past earnings, spending patterns, and creditworthiness can propose appropriate loan amounts that they can comfortably afford and borrow from Jargon AI. This feature enables users to make informed decisions on financing during the promotion of sound lending.
 
 •	Currency Exchange & Travel Promotions:
-o	If the predictive engine anticipates an increase in travel-related spending (e.g., identified through trending search queries, past seasonal travel, or explicit user goals), Jargon AI can proactively suggest VPBank's currency exchange services or highlight relevant flight promotions and travel packages offered through VPBank partnerships.
+o	If the predictive engine anticipates an increase in travel-related spending (e.g., identified through trending search queries, past seasonal travel, or explicit user goals), Jargon AI can proactively suggest Jargon AI's currency exchange services or highlight relevant flight promotions and travel packages offered through Jargon AI partnerships.
 
 •	Investment Opportunities:
-o	As a customer's 'assets'or investment jar, the framework can encourage proper VPBank purchase of goods (e.g. , Reserve Statements, together with increased interest rates, Joint Funds, or detailed stake compilations aligned with their risk tolerance and monetary intentions.
+o	As a customer's 'assets'or investment jar, the framework can encourage proper Jargon AI purchase of goods (e.g. , Reserve Statements, together with increased interest rates, Joint Funds, or detailed stake compilations aligned with their risk tolerance and monetary intentions.
 
 •	Benefits: It aims at increasing the involvement of consumers in VP Bank's habitat, encouraging merchandise adoption, and providing seasonal, context-aware economic solutions.
 
@@ -193,7 +193,7 @@ o	Data Aggregation and Processing: To compile and structure financial data for v
 Frontend Development Frameworks: To render dynamic and interactive charts and dashboards within the user interface.
 
 Impact of Solution 
-Jargon machine intelligence provides useful rewards for Vietnamese civilization and its target listeners, VPBank customers, to stand out as a superior solution in the emerging technology finance market.
+Jargon machine intelligence provides useful rewards for Vietnamese civilization and its target listeners, Jargon AI customers, to stand out as a superior solution in the emerging technology finance market.
 1.	How Jargon AI Benefits Society and Target Audience?
 •	Enhanced Financial Literacy and Empowerment: Jargon machine intelligence goes beyond simple tracking to explain if certain monetary adjustments are made otherwise recommend. The current transparent, machine learning-based guidance encourages a deeper understanding of fiscal principles and empowers users to make more informed decisions about their money.
 
@@ -201,7 +201,7 @@ Jargon machine intelligence provides useful rewards for Vietnamese civilization 
 
 •	Reduced Financial Anxiety: The prepared alert, personalized plan, and 24-hour machine intelligence chatbot help provide a changeless financial safety internet, reducing anxiety regularly associated with the direction of new funds. Users gain confidence that an intelligent assistant is constantly monitoring their financial vitality.
 
-•	Tailored Banking Experience: Jargon Machine Intelligence transforms a transactional link into a truly advisory individual for VPBank clients. The user experience is more understood and valued, as the financial institution actively supports its financial expedition in order to increase loyalty and satisfaction.
+•	Tailored Banking Experience: Jargon Machine Intelligence transforms a transactional link into a truly advisory individual for Jargon AI clients. The user experience is more understood and valued, as the financial institution actively supports its financial expedition in order to increase loyalty and satisfaction.
 
 •	Responsible Credit and Investment: Jargon Machine Intelligence proposes appropriate loan rates and associated purchase opportunities based on a person's actual monetary mannerisms and tasks, promoting reliable borrowing and intelligent financing, promoting a better economic environment.
 2.	Why Jargon AI is a Good Solution?
@@ -217,16 +217,16 @@ Jargon AI is great since it solves the downsides and challenges of old school bu
 Compared to competitors already in the Vietnam market, like Momo AI, Jargon AI provides certain advantages including:
 Momi AI (from Momo) Overview: Momo is a popular mobile payment super app in Vietnam, with a wide array of features that include payments, bill pay, P2P transfers, ticketing, and some financial services like savings, loans (often via partners), and simple spending categorization. It leans on AI for security, recommendations across its many services and some automated spending classification and loan approvals. It also offers automatic invoice information recognition from photos for transaction input.
 Comparison table between Jargon AI and Moni AI (competitor from Momo)
-Feature	Jargon AI (for VPBank)	MoMo AI (Moni AI Chatbot / General AI Features)
+Feature	Jargon AI (for Jargon AI)	MoMo AI (Moni AI Chatbot / General AI Features)
 Dynamic & Predictive Jar Allocation	✔ (Core feature: AI dynamically adjusts "jars" based on user, seasonality, predictions)	✖ (Focuses on automatic classification and reminders, not dynamic allocation adjustment based on predictive behavior)
 Automated Transaction Classification	✔ (Based on description, AI identifies categories)	✔ (AI automatically classifies transactions into categories like food, shopping, entertainment)
 Image-Based Transaction Recognition	✔ (Upload/capture bill image; AI extracts data & classifies into jar)	✔ (AI helps input invoices from photos; automatically recognizes and adds info to user's list)
 Proactive Spending Predictions	✔ (Predicts future expenses like seasonal bills; adjusts jars accordingly)	✖ (Focuses more on reminding to avoid overspending and analyzing past expenses, less on proactive budget adjustment)
 AI Agent Chatbot (Conversational)	✔ (24/7 support for complex queries, jar transfers, personalized financial planning)	✔ (Moni AI helps manage spending via analysis, alerts, and savings suggestions interact with system functions; General Gen AI Chatbot for customer service)
 Personalized Savings Plan Generation	✔ (Chatbot generates detailed, actionable plans for user-defined goals, e.g., laptop saving)	✖ (While it suggests savings strategies, explicit detailed plan generation based on spending habits is not emphasized)
-Contextual VPBank Product Promotion	✔ (Proactively suggests specific VPBank loans, currency exchange, investments based on user behavior & predictions)	✖ (Momo offers various financial products, often via partners; AI provides general recommendations for its broad platform, not specific to a single bank's direct offerings)
+Contextual Jargon AI Product Promotion	✔ (Proactively suggests specific Jargon AI loans, currency exchange, investments based on user behavior & predictions)	✖ (Momo offers various financial products, often via partners; AI provides general recommendations for its broad platform, not specific to a single bank's direct offerings)
 Interactive Financial Visualization	✔ (Comprehensive dashboards: spending breakdowns, income/expense trends, jar performance, goal trackers)	✖ (Basic spending tracking visuals may exist, but not emphasized as a comprehensive, interactive suite)
-Integration with Core Banking	✔ (Built for deep integration with VPBank's systems, enhancing bank-customer relationship)	✖ (Acts as a super app layered over banks, rather than deeply integrated within one bank's core system)
+Integration with Core Banking	✔ (Built for deep integration with Jargon AI's systems, enhancing bank-customer relationship)	✖ (Acts as a super app layered over banks, rather than deeply integrated within one bank's core system)
 Figure 1: Comparision Table between Jargon AI and Moni AI
 
 Deep Dive into Solution 
@@ -305,7 +305,7 @@ Tech notes
 •	Allocation logic is handled by a rule-engine microservice (e.g., Drools or a custom Go service) deployed on AWS (e.g., ECS or Lambda), with a REST API interface serving both the UI and chatbot.
 Process 6: Product Recommendation
 Function
-•	We customize VPBank’s product promotions (like loans, foreign exchange, and investments) based on:
+•	We customize Jargon AI’s product promotions (like loans, foreign exchange, and investments) based on:
 o	Your profile and goals
 o	Spending and income habits
 o	Future forecasts
@@ -344,7 +344,7 @@ Tech notes
 
  	Process 8: Chatbot (RAG-enabled)
 Function
-•	This is a Q&A system powered by a large language model (LLM) that offers insights into financial data and knowledge about VPBank.
+•	This is a Q&A system powered by a large language model (LLM) that offers insights into financial data and knowledge about Jargon AI.
 
 •	It makes function calls to essential services like update_transaction_record() and update_jar().
 Data flow & storage
@@ -395,7 +395,7 @@ Image-based document recognition is covered in this section. Amazon Textract is 
 ③ Knowledge Base for RAG (Retrieval-Augmented Generation)
 •	Components: Text Embeddings, Amazon Bedrock Knowledge Base, and Amazon S3
 •	Description:
-LLM-driven insights and the AI Agent Chatbot are supported in this section. Amazon S3 is where documents like VPBank Products and Financial Management Tips are kept.
+LLM-driven insights and the AI Agent Chatbot are supported in this section. Amazon S3 is where documents like Jargon AI Products and Financial Management Tips are kept.
 By converting these documents into text embeddings, a Bedrock Knowledge Base is created that improves chatbot responses through Retrieval-Augmented Generation (RAG), which incorporates pertinent outside data into user conversations.
 ④ Amazon Bedrock LLM Agent (Conversational Orchestration)
 •	Components: Amazon Bedrock, AWS Lambda
@@ -411,7 +411,7 @@ This structured data ensures real-time synchronization between chatbot interacti
 •	Components: Amazon Forecast, Amazon Personalize, AWS Glue, S3 Data Lake, Amazon Athena, Amazon Quicksight, and Amazon Pinpoint are among the components.
 •	Description: This analytical pipeline offers spending projections, visual insights, and tailored recommendations:
 o	Amazon Forecast forecasts future revenue and expenses.
-o	VPBank product promotions and financial advice are customized by Amazon Personalize.
+o	Jargon AI product promotions and financial advice are customized by Amazon Personalize.
 o	Structured and unstructured data are processed by AWS Glue and stored in a data lake.
 o	Historical data querying is made possible by Amazon Athena.
 o	Jar usage, spending patterns, and objectives are visualized by Amazon Quicksight.

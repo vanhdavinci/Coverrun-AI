@@ -34,7 +34,7 @@ const Navigation = () => {
       
       {/* Centered title */}
       <div className="flex items-center gap-2">
-        <span className="text-2xl font-bold text-green-700">VPBank<span className="text-green-500">Dashboard</span></span>
+        <span className="text-2xl font-bold text-green-700">Jargon AI<span className="text-green-500">Dashboard</span></span>
       </div>
       
       {/* Right section - User info */}

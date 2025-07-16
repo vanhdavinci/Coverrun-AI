@@ -1,7 +1,7 @@
 # Jargon AI Prototype Development Plan
 
 ## Overview
-Building an AI-powered financial management system for VPBank with dynamic jar allocation, intelligent transaction classification, and personalized financial advice.
+Building an AI-powered financial management system for Jargon AI with dynamic jar allocation, intelligent transaction classification, and personalized financial advice.
 
 ## Phase 1: Project Setup & Foundation
 ### 1.1 Environment Setup
@@ -104,15 +104,15 @@ Building an AI-powered financial management system for VPBank with dynamic jar a
 
 ### 4.3 Product Recommendation Engine
 - [ ] Create user spending behavior analysis
-- [ ] Implement VPBank product database
+- [ ] Implement Jargon AI product database
 - [ ] Build recommendation algorithm
 - [ ] Create personalized offer interface
 - [ ] Add loan eligibility assessment
 - [ ] Implement investment opportunity suggestions
 
 ## Phase 5: Integration & Polish
-### 5.1 VPBank Integration Simulation
-- [ ] Create mock VPBank API endpoints
+### 5.1 Jargon AI Integration Simulation
+- [ ] Create mock Jargon AI API endpoints
 - [ ] Implement banking transaction sync simulation
 - [ ] Build account balance integration
 - [ ] Add payment history import

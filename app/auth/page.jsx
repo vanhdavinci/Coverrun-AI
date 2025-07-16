@@ -83,7 +83,7 @@ export default function AuthPage() {
           </div>
 
           <div className="mb-8">
-            <h1 className="text-3xl font-bold text-gray-800">Welcome to VPBank Dashboard</h1>
+            <h1 className="text-3xl font-bold text-gray-800">Welcome to Jargon AI Dashboard</h1>
             <p className="text-gray-500 mt-1">Register your account</p>
           </div>
 

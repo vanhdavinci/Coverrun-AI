@@ -51,7 +51,7 @@ export function AppSidebar() {
         <SidebarHeader className= 'flex items-center mt-5'>
             <Image src={'/image.png'} alt="logo" width ={200}
                 height = {100}
-                className="w-[300px] h-[150px]"
+                className="w-[300px] h-[200px]"
             />
         </SidebarHeader>
         <SidebarContent>

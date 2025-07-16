@@ -28,14 +28,14 @@ export default function SignInPage() {
           <div className="flex justify-center mb-8">
             <Image 
               src="/image.png" 
-              alt="VPBank Dashboard Logo" 
+              alt="Jargon AI Dashboard Logo" 
               width={300} 
               height={2000} 
             />
           </div>
 
           <div className="text-center mb-8">
-            <h1 className="text-2xl font-bold text-gray-800">Welcome to VPBank Dashboard</h1>
+            <h1 className="text-2xl font-bold text-gray-800">Welcome to Jargon AI Dashboard</h1>
             <p className="text-gray-500 mt-2">Sign in to get started</p>
           </div>
 

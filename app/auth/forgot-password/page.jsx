@@ -23,7 +23,7 @@ export default function ForgotPasswordPage() {
             <div className="flex items-center gap-2">
               <Image 
                 src="/image.png" 
-                alt="VPBank Dashboard Logo" 
+                alt="Jargon AI Dashboard Logo" 
                 width={120} 
                 height={900} 
               />

@@ -34,7 +34,7 @@ function Dashboard() {
       
       {/* Welcome Message */}
       <div className="bg-white rounded-xl shadow-sm p-8 border border-gray-100">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4">Welcome to VPBank Dashboard</h2>
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">Welcome to Jargon AI Dashboard</h2>
         <p className="text-gray-600 mb-6">
           Your financial management hub is ready. Start exploring the features available to help you manage your finances effectively.
         </p>

@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "VPBank Dashboard",
+  title: "Jargon AI Dashboard",
   description: "Your comprehensive financial management platform",
 };
 

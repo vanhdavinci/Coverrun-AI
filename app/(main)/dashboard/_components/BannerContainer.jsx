@@ -7,7 +7,7 @@ function BannerContainer(){
         <div className="space-y-4 px-4">
             <div className="relative w-full h-[250px] rounded-xl overflow-hidden bg-gradient-to-r from-teal-600 to-green-400 p-8 flex flex-col justify-center">
                 <div className="relative z-10">
-                    <div className="text-white mb-2 uppercase tracking-wide text-sm">VPBANK DASHBOARD</div>
+                    <div className="text-white mb-2 uppercase tracking-wide text-sm">Jargon AI DASHBOARD</div>
                     <h1 className="text-3xl font-bold text-white mb-6 max-w-[600px]">
                         Manage Your Finances With Smart Tools and Insights
                     </h1>

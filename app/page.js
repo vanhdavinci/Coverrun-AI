@@ -13,12 +13,12 @@ export default function Home() {
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-green-50 to-green-100 text-gray-800">
       {/* Hero Section */}
       <div className="flex flex-col items-center text-center px-6 md:px-12 pt-16 pb-10">
-        <p className="text-sm uppercase tracking-wider text-green-600 mb-2">VPBANK DASHBOARD</p>
+        <p className="text-sm uppercase tracking-wider text-green-600 mb-2">Jargon AI DASHBOARD</p>
         <h1 className="text-5xl md:text-6xl font-bold text-gray-800 max-w-4xl mb-6">
           Your Financial Management Hub
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mb-10">
-          VPBank Dashboard is your comprehensive financial management platform—track your accounts, set goals, and get personalized insights to achieve financial success
+          Jargon AI Dashboard is your comprehensive financial management platform—track your accounts, set goals, and get personalized insights to achieve financial success
         </p>
         <Link
           href="/dashboard"
@@ -32,7 +32,7 @@ export default function Home() {
       {/* Features Section */}
       <div className="w-full text-center px-6 md:px-12 py-16">
         <h2 className="text-3xl font-bold mb-4">
-          What can you do with VPBank Dashboard?
+          What can you do with Jargon AI Dashboard?
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           Manage your finances effectively with comprehensive tools and insights designed for your success
