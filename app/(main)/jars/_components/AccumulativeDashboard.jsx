@@ -166,8 +166,9 @@ const AccumulativeDashboard = ({ dashboardData, isRefreshing, onRefresh }) => {
               <div className="space-y-3">
                 {jars.map((jar) => {
                   // Calculate jar remaining capacity percentage (100% to 0%)
-                  const usedPercentage = jar.allocated_amount_this_month > 0 
-                    ? Math.min(100, Math.round((jar.spent_this_month / jar.allocated_amount_this_month) * 100))
+                  const monthlyIncome = jar.income_this_month || 0; // total added this month
+                  const usedPercentage = monthlyIncome > 0 
+                    ? Math.min(100, Math.round((jar.spent_this_month / monthlyIncome) * 100))
                     : 0;
                   const remainingPercentage = 100 - usedPercentage;
                     
@@ -194,7 +195,7 @@ const AccumulativeDashboard = ({ dashboardData, isRefreshing, onRefresh }) => {
                       <div className="grid grid-cols-3 gap-2 text-xs">
                         <div>
                           <span className="text-gray-500">Monthly Allocation:</span>
-                          <p className="font-medium text-green-600">{formatCurrency(jar.allocated_amount_this_month)}</p>
+                          <p className="font-medium text-green-600">{formatCurrency(monthlyIncome)}</p>
                         </div>
                         <div>
                           <span className="text-gray-500">Spent This Month:</span>
@@ -202,7 +203,7 @@ const AccumulativeDashboard = ({ dashboardData, isRefreshing, onRefresh }) => {
                         </div>
                         <div>
                           <span className="text-gray-500">Remaining:</span>
-                          <p className="font-medium text-blue-600">{formatCurrency(jar.allocated_amount_this_month - jar.spent_this_month)}</p>
+                          <p className="font-medium text-blue-600">{formatCurrency(monthlyIncome - jar.spent_this_month)}</p>
                         </div>
                       </div>
                     </div>

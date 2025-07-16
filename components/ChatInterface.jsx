@@ -2,9 +2,32 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
-import { Send, Bot, User } from 'lucide-react';
+import { Send, Bot, User, Trash2 } from 'lucide-react';
 import { supabase } from '@/services/supabaseClient';
 import { useDataRefresh } from '@/context/DataRefreshContext';
+
+const SUGGESTIONS = [
+  {
+    label: 'Tôi đã chi bao nhiêu cho cà phê/thức uống tuần này?',
+    value: 'Tôi đã chi bao nhiêu cho cà phê hoặc nước uống tuần này?'
+  },
+  {
+    label: 'Tôi có thể mua xe 10,000 USD khi nào?',
+    value: 'Khi nào tôi có thể mua xe 10,000 USD?'
+  },
+  {
+    label: 'Thêm giao dịch chi tiêu 200k cho ăn uống',
+    value: 'Tôi vừa chi 200,000 cho ăn uống.'
+  },
+  {
+    label: 'Tôi muốn đặt mục tiêu tiết kiệm 50 triệu',
+    value: 'Tôi muốn đặt mục tiêu tiết kiệm 50,000,000 VND.'
+  },
+  {
+    label: 'Tôi nhận lương tháng này',
+    value: 'Tôi vừa nhận lương tháng này.'
+  },
+];
 
 const ChatInterface = ({ isOpen, onClose }) => {
   const [messages, setMessages] = useState([
@@ -87,6 +110,7 @@ const ChatInterface = ({ isOpen, onClose }) => {
 
         // If transaction was successful, trigger refresh
         if (functionResponse.success) {
+          console.log("ChatInterface: Function successful, triggering refresh");
           triggerRefresh();
         }
       } else {
@@ -113,6 +137,18 @@ const ChatInterface = ({ isOpen, onClose }) => {
     }
   };
 
+  // Add clear chat handler
+  const handleClearChat = () => {
+    setMessages([
+      {
+        id: 1,
+        role: 'assistant',
+        content: 'Xin chào! Tôi là trợ lý tài chính AI của VPBank. Tôi có thể giúp bạn với quản lý tài chính, lập kế hoạch ngân sách, và các câu hỏi về sản phẩm VPBank. Bạn cần hỗ trợ gì?',
+        timestamp: new Date()
+      }
+    ]);
+  };
+
   if (!isOpen) return null;
 
   return (
@@ -123,15 +159,45 @@ const ChatInterface = ({ isOpen, onClose }) => {
           <Bot className="w-5 h-5" />
           <span className="font-semibold">VPBank AI Assistant</span>
         </div>
-        <Button
-          onClick={onClose}
-          variant="ghost"
-          size="sm"
-          className="text-white hover:bg-green-700 p-1 h-auto"
-        >
-          ✕
-        </Button>
+        <div className="flex items-center gap-2">
+          <Button
+            onClick={handleClearChat}
+            variant="ghost"
+            size="sm"
+            className="text-white hover:bg-red-600 p-1 h-auto"
+            title="Xóa hội thoại"
+          >
+            <Trash2 className="w-4 h-4" />
+          </Button>
+          <Button
+            onClick={onClose}
+            variant="ghost"
+            size="sm"
+            className="text-white hover:bg-green-700 p-1 h-auto"
+          >
+            ✕
+          </Button>
+        </div>
       </div>
+
+      {/* Suggestions */}
+      {messages.length === 1 && messages[0].role === 'assistant' && (
+        <div className="p-4 border-b border-gray-100 bg-gray-50">
+          <div className="mb-2 text-sm text-gray-700 font-semibold">Gợi ý câu hỏi:</div>
+          <div className="flex flex-wrap gap-2">
+            {SUGGESTIONS.map((s, idx) => (
+              <button
+                key={idx}
+                className="bg-green-100 hover:bg-green-200 text-green-800 rounded-full px-3 py-1 text-xs font-medium transition"
+                onClick={() => setInputMessage(s.value)}
+                type="button"
+              >
+                {s.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Messages */}
       <div className="flex-1 overflow-y-auto p-4 space-y-4">

@@ -7,6 +7,7 @@ CREATE TABLE public.users (
   id integer NOT NULL DEFAULT nextval('users_id_seq'::regclass),
   email character varying NOT NULL UNIQUE,
   full_name character varying,
+  saving_target_cents bigint DEFAULT 0,
   created_at timestamp without time zone NOT NULL DEFAULT now(),
   CONSTRAINT users_pkey PRIMARY KEY (id)
 );

@@ -48,6 +48,41 @@ export const getUserById = async (userId) => {
   }
 };
 
+// Get user's saving target
+export const getUserSavingTarget = async (userId) => {
+  try {
+    const { data, error } = await supabase
+      .from('users')
+      .select('saving_target_cents')
+      .eq('id', userId)
+      .single();
+
+    if (error) throw error;
+    return data?.saving_target_cents || 0;
+  } catch (error) {
+    console.error('Error fetching user saving target:', error);
+    throw error;
+  }
+};
+
+// Update user's saving target
+export const updateUserSavingTarget = async (userId, targetCents) => {
+  try {
+    const { data, error } = await supabase
+      .from('users')
+      .update({ saving_target_cents: targetCents })
+      .eq('id', userId)
+      .select('saving_target_cents')
+      .single();
+
+    if (error) throw error;
+    return data?.saving_target_cents || 0;
+  } catch (error) {
+    console.error('Error updating user saving target:', error);
+    throw error;
+  }
+};
+
 // Jar Categories Functions
 export const getJarCategories = async () => {
   try {
@@ -355,8 +390,15 @@ export const getAccumulativeDashboardData = async (userId) => {
     ]);
 
     // Calculate lifetime stats from jarBalances (which are pre-aggregated by the DB view)
-    const lifetimeIncome = jarBalances.reduce((sum, jar) => sum + jar.total_income_cents, 0);
-    const lifetimeExpenses = jarBalances.reduce((sum, jar) => sum + jar.total_spent_cents, 0);
+    // Instead, fetch all transactions and filter out jar_swap for income/expense
+    const { data: allTransactions, error: txError } = await supabase
+      .from('transactions')
+      .select('amount_cents, source')
+      .eq('user_id', userId);
+    if (txError) throw txError;
+    const filteredTx = (allTransactions || []).filter(t => t.source !== 'jar_swap');
+    const lifetimeIncome = filteredTx.filter(t => t.amount_cents > 0).reduce((sum, t) => sum + t.amount_cents, 0);
+    const lifetimeExpenses = filteredTx.filter(t => t.amount_cents < 0).reduce((sum, t) => sum + Math.abs(t.amount_cents), 0);
     const totalBalance = jarBalances.reduce((sum, jar) => sum + jar.current_balance_cents, 0);
 
     // Calculate this month's activity from jarBalances
