@@ -35,10 +35,11 @@ app = FastAPI(title="Savings Forecast API (XGBoost + CORS)")
 # 1) Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Or ["*"] to allow any origin
-    allow_credentials=True,
-    allow_methods=["*"],  # ← this allows OPTIONS, GET, POST, etc.
-    allow_headers=["*"],  # ← accepts e.g. Content-Type
+    allow_origins=["*"],  # Allow all origins in development
+    allow_credentials=False,  # Must be False when allow_origins=["*"]
+    allow_methods=["*"],  # Allow all methods
+    allow_headers=["*"],  # Allow all headers
+    expose_headers=["*"]  # Allow client to see all headers
 )
 
 # 2) Then define your schemas and /forecast endpoint as before

@@ -12,16 +12,16 @@ const SUGGESTIONS = [
     value: 'Tôi đã chi bao nhiêu cho cà phê hoặc nước uống tuần này?'
   },
   {
-    label: 'Tôi có thể mua xe 10,000 USD khi nào?',
-    value: 'Khi nào tôi có thể mua xe 10,000 USD?'
+    label: 'Khi nào tôi có thể tiết kiệm được 50 triệu?',
+    value: 'Khi nào tôi có thể tiết kiệm được 50 triệu?'
   },
   {
-    label: 'Thêm giao dịch chi tiêu 200k cho ăn uống',
-    value: 'Tôi vừa chi 200,000 cho ăn uống.'
+    label: 'Tôi vừa chi 5 triệu để trả tiền thuê nhà.',
+    value: 'Tôi vừa chi 5 triệu để trả tiền thuê nhà.'
   },
   {
     label: 'Tôi muốn đặt mục tiêu tiết kiệm 50 triệu',
-    value: 'Tôi muốn đặt mục tiêu tiết kiệm 50,000,000 VND.'
+    value: 'Tôi muốn đặt mục tiêu tiết kiệm 50 triệu.'
   },
   {
     label: 'Tôi nhận lương tháng này',
