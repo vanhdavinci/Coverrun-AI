@@ -124,7 +124,7 @@ export async function handler({ target_amount, target_description, forecast_peri
         }));
 
         // Call ML prediction API
-        const mlApiUrl = process.env.ML_API_URL || 'http://localhost:8000';
+        const mlApiUrl = process.env.ML_API_URL || process.env.NEXT_PUBLIC_FORECAST_API_URL;
         const predictionResponse = await fetch(`${mlApiUrl}/forecast`, {
             method: 'POST',
             headers: {
@@ -143,6 +143,18 @@ export async function handler({ target_amount, target_description, forecast_peri
         }
 
         const predictionResult = await predictionResponse.json();
+        let forecastData = predictionResult.forecast;
+        let targetDate = predictionResult.target_date;
+        // Handle stringified JSON body (AWS Lambda proxy integration)
+        if (!forecastData && typeof predictionResult.body === "string") {
+            try {
+                const parsed = JSON.parse(predictionResult.body);
+                forecastData = parsed.forecast;
+                targetDate = parsed.target_date;
+            } catch (e) {
+                console.error("Failed to parse ML API body", e, predictionResult.body);
+            }
+        }
 
         // Calculate additional insights
         const currentSavingsVND = currentBalance;
@@ -166,21 +178,21 @@ export async function handler({ target_amount, target_description, forecast_peri
                 current_savings: currentSavingsVND,
                 remaining_amount: remainingAmount,
                 is_target_reached: isTargetReached,
-                target_date: predictionResult.target_date,
+                target_date: targetDate,
                 monthly_savings_rate: monthlySavingsRate,
-                forecast: predictionResult.forecast.map(point => ({
+                forecast: forecastData ? forecastData.map(point => ({
                     date: point.date,
                     predicted_balance: point.yhat,
                     lower_bound: point.yhat_lower,
                     upper_bound: point.yhat_upper
-                })),
+                })) : [],
                 historical_data: mlApiData,
                 insights: {
                     total_transactions: transactions.length,
                     average_monthly_savings: monthlySavingsRate,
-                    months_to_target: predictionResult.target_date ? 
-                        calculateMonthsToTarget(predictionResult.target_date) : null,
-                    confidence_level: calculateConfidenceLevel(predictionResult.forecast)
+                    months_to_target: targetDate ? 
+                        calculateMonthsToTarget(targetDate) : null,
+                    confidence_level: calculateConfidenceLevel(forecastData)
                 }
             }
         };

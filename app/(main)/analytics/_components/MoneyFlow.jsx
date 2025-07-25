@@ -81,17 +81,20 @@ export default function MoneyFlow() {
         if (lastDate && lastBalance !== null) {
           monthlyData.push({ date: lastDate, balance: lastBalance });
         }
+        console.log(monthlyData)
         // Call the forecast API
         try {
-          const response = await axios.post("http://localhost:8000/forecast", {
+          const response = await axios.post(process.env.NEXT_PUBLIC_FORECAST_API_URL, {
             data: monthlyData,
             periods: 6,
             freq: "M",
             target: 10000.0,
             lags: 12
           });
-          console.log(monthlyData)
-          const forecast = response.data.forecast || [];
+          console.log("responsem: ", response)
+          const parsed = JSON.parse(response.body);
+          const forecast = parsed.forecast;
+          console.log("forecast: ", forecast)
           
           // Filter forecast to only include dates after the last actual date
           const lastActualDate = new Date(sortedDays[sortedDays.length - 1]);

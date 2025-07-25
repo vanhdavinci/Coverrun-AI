@@ -106,7 +106,7 @@ export default function SavingsChart() {
           }
 
           try {
-            const { data } = await axios.post("http://localhost:8000/forecast", {
+            const { data } = await axios.post(process.env.NEXT_PUBLIC_FORECAST_API_URL, {
               data: monthlyData,
               periods: 6,
               freq: "M",
@@ -116,7 +116,10 @@ export default function SavingsChart() {
             
             // Filter forecast to only include dates after the last actual date
             const lastActualDate = new Date(sortedDays[sortedDays.length - 1]);
-            const filteredForecast = data.forecast.filter(f => {
+            console.log("forecast: ", data)
+            const parsed = JSON.parse(data.body);
+            console.log(parsed.forecast); // This will be your array!
+            const filteredForecast = parsed.forecast.filter(f => {
               const forecastDate = new Date(f.date);
               return forecastDate > lastActualDate;
             });
