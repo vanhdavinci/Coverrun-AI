@@ -94,38 +94,37 @@ export async function handler({ target_amount, target_description, forecast_peri
 
         // Calculate cumulative savings balance over time
         let currentBalance = 0;
-        const savingsData = [];
-        const balanceHistory = [];
+        const dailyBalances = [];
+        transactions
+            .sort((a, b) => new Date(a.occurred_at) - new Date(b.occurred_at))
+            .forEach((tx) => {
+                currentBalance += tx.amount_cents;
+                const day = tx.occurred_at.slice(0, 10);
+                dailyBalances.push({ date: day, balance: currentBalance });
+            });
 
-        transactions.forEach(transaction => {
-            currentBalance += transaction.amount_cents;
-            const date = new Date(transaction.occurred_at);
-            
-            // Group by month for monthly forecasting
-            const monthKey = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
-            
-            const existingMonth = balanceHistory.find(item => item.month === monthKey);
-            if (existingMonth) {
-                existingMonth.balance = currentBalance;
-                existingMonth.date = date.toISOString().split('T')[0];
-            } else {
-                balanceHistory.push({
-                    month: monthKey,
-                    date: date.toISOString().split('T')[0],
-                    balance: currentBalance
-                });
+        // Group by month, keeping only the last date of each month
+        const monthlyData = [];
+        let lastMonth = null, lastDate = null, lastBalance = null;
+        dailyBalances.forEach(({ date, balance }) => {
+            const month = date.slice(0, 7);
+            if (month !== lastMonth && lastDate) {
+                monthlyData.push({ date: lastDate, balance: lastBalance });
+                lastMonth = month;
             }
+            lastDate = date;
+            lastBalance = balance;
         });
+        if (lastDate) {
+            monthlyData.push({ date: lastDate, balance: lastBalance });
+        }
 
         // Prepare data for ML API
-        const mlApiData = balanceHistory.map(item => ({
-            date: item.date,
-            balance: item.balance // Convert cents to VND for ML API
-        }));
+        const mlApiData = monthlyData;
 
         // Call ML prediction API
-        const mlApiUrl = process.env.ML_API_URL || process.env.NEXT_PUBLIC_FORECAST_API_URL;
-        const predictionResponse = await fetch(`${mlApiUrl}/forecast`, {
+        const mlApiUrl = process.env.NEXT_PUBLIC_FORECAST_API_URL;
+        const predictionResponse = await fetch(`${mlApiUrl}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -146,7 +145,7 @@ export async function handler({ target_amount, target_description, forecast_peri
         let forecastData = predictionResult.forecast;
         let targetDate = predictionResult.target_date;
         // Handle stringified JSON body (AWS Lambda proxy integration)
-        if (!forecastData && typeof predictionResult.body === "string") {
+        if (typeof predictionResult.body === "string") {
             try {
                 const parsed = JSON.parse(predictionResult.body);
                 forecastData = parsed.forecast;
@@ -163,7 +162,7 @@ export async function handler({ target_amount, target_description, forecast_peri
         const isTargetReached = currentSavingsVND >= targetAmountVND;
 
         // Calculate monthly savings rate from recent data
-        const recentMonths = balanceHistory.slice(-3); // Last 3 months
+        const recentMonths = monthlyData.slice(-3); // Last 3 months
         let monthlySavingsRate = 0;
         if (recentMonths.length >= 2) {
             const totalChange = recentMonths[recentMonths.length - 1].balance - recentMonths[0].balance;
@@ -182,7 +181,7 @@ export async function handler({ target_amount, target_description, forecast_peri
                 monthly_savings_rate: monthlySavingsRate,
                 forecast: forecastData ? forecastData.map(point => ({
                     date: point.date,
-                    predicted_balance: point.yhat,
+                    yhat: point.yhat, // match frontend expectation
                     lower_bound: point.yhat_lower,
                     upper_bound: point.yhat_upper
                 })) : [],

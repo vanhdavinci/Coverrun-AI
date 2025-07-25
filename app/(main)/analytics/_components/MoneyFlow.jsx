@@ -63,22 +63,17 @@ export default function MoneyFlow() {
         setForecastLoading(true);
         // Use last day of each month for monthly frequency
         const monthlyData = [];
-        let lastMonth = null;
-        let lastDate = null;
-        let lastBalance = null;
+        let lastMonth = null, lastDate = null, lastBalance = null;
         sortedDays.forEach((date, idx) => {
           const month = date.slice(0, 7);
-          if (month !== lastMonth) {
-            if (lastDate && lastBalance !== null) {
-              monthlyData.push({ date: lastDate, balance: lastBalance });
-            }
+          if (month !== lastMonth && lastDate) {
+            monthlyData.push({ date: lastDate, balance: lastBalance });
             lastMonth = month;
           }
           lastDate = date;
           lastBalance = balances[idx];
         });
-        // Push the last one
-        if (lastDate && lastBalance !== null) {
+        if (lastDate) {
           monthlyData.push({ date: lastDate, balance: lastBalance });
         }
         console.log(monthlyData)
@@ -91,18 +86,14 @@ export default function MoneyFlow() {
             target: 10000.0,
             lags: 12
           });
-          console.log("responsem: ", response)
           const parsed = JSON.parse(response.body);
           const forecast = parsed.forecast;
-          console.log("forecast: ", forecast)
-          
           // Filter forecast to only include dates after the last actual date
           const lastActualDate = new Date(sortedDays[sortedDays.length - 1]);
           const filteredForecast = forecast.filter(f => {
             const forecastDate = new Date(f.date);
             return forecastDate > lastActualDate;
           });
-          
           setForecastLabels(filteredForecast.map(f => f.date));
           setForecastPoints(filteredForecast.map(f => f.yhat));
         } catch (err) {
