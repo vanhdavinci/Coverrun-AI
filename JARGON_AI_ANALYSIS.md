@@ -1,7 +1,7 @@
-# Jargon AI Prototype - Existing Codebase Analysis
+# CoverRun AI Prototype - Existing Codebase Analysis
 
 ## 🎯 Current State Overview
-Your existing **Virtual Interview** app is a sophisticated AI-powered interview platform with many components that can be adapted for Jargon AI. Here's what's already implemented and what can be reused:
+Your existing **Virtual Interview** app is a sophisticated AI-powered interview platform with many components that can be adapted for CoverRun AI. Here's what's already implemented and what can be reused:
 
 ## ✅ **Already Implemented Features**
 
@@ -37,7 +37,7 @@ Your existing **Virtual Interview** app is a sophisticated AI-powered interview 
 - [x] **OCR Capabilities** - Tesseract.js for image text extraction
 - [x] **File Upload** - Complete file handling system
 
-## 🔄 **What Can Be Adapted for Jargon AI**
+## 🔄 **What Can Be Adapted for CoverRun AI**
 
 ### 💰 **Financial Features from Existing Code**
 
@@ -75,7 +75,7 @@ const result = await axios.post("/api/financial_ai", transactionData);
 .from('transactions').insert([{ amount, category, aiCategory, jarType }])
 ```
 
-## 🛠️ **Required Modifications for Jargon AI**
+## 🛠️ **Required Modifications for CoverRun AI**
 
 ### **High Priority (Can Start Immediately)**
 
@@ -204,4 +204,4 @@ export const Prompt_FinancialAdvice = "Provide personalized financial advice..."
 4. **📱 Mobile Ready** - Responsive design already implemented
 5. **☁️ Cloud Ready** - Supabase integration handles scaling
 
-Your existing codebase provides an **excellent foundation** for building Jargon AI. You can have a working financial management prototype in 2-3 weeks instead of starting from scratch! 
+Your existing codebase provides an **excellent foundation** for building CoverRun AI. You can have a working financial management prototype in 2-3 weeks instead of starting from scratch! 
