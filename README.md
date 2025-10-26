@@ -13,7 +13,7 @@ CoverRun AI is an intelligent financial management system that helps users manag
 
 ### AI-Powered Features
 - **Intelligent Chatbot**: Natural language interface for financial management
-- **Receipt Analysis**: OCR-powered receipt scanning and transaction extraction
+- **Receipt Analysis**: receipt scanning and transaction extraction
 - **Transaction Classification**: Automatic categorization of expenses
 - **Financial Insights**: Personalized advice based on spending patterns
 - **Web Search Integration**: Real-time information about products and deals
@@ -41,7 +41,6 @@ CoverRun AI is an intelligent financial management system that helps users manag
   - LangChain for AI orchestration
   - LangGraph for complex AI workflows
   - Tavily Search for web information
-- **OCR**: Tesseract.js for receipt processing
 
 ### Infrastructure
 - **Database**: Supabase (PostgreSQL)
