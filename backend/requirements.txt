@@ -2,6 +2,10 @@ fastapi==0.104.1
 uvicorn==0.24.0
 python-dotenv==1.0.0
 langchain-openai==0.1.13
+langchain-google-genai==2.0.7
+langchain-core==0.3.28
+langchain-tavily==0.2.0
 langgraph==0.2.0
 pydantic==2.5.0
 supabase==2.3.5
+typing-extensions==4.12.2
