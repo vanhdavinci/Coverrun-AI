@@ -30,7 +30,7 @@ const ContentMediaSection: React.FC = () => {
             
             {/* CTA Button */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/dashboard">
+              <Link href="/overview">
                 <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-semibold rounded-lg">
                   Try AI Assistant
                 </Button>

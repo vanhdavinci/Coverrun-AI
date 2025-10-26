@@ -32,7 +32,7 @@ const Header: React.FC = () => {
       href: "#",
       hasDropdown: true,
       dropdownItems: [
-        { name: "Dashboard", href: "/dashboard" },
+        { name: "Overview", href: "/overview" },
         { name: "Jars", href: "/jars" },
         { name: "Transactions", href: "/transactions" },
         { name: "Analytics", href: "/analytics" }

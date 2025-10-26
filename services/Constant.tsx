@@ -1,4 +1,4 @@
-import { LayoutDashboard, Wallet, Receipt, BarChart2, LucideIcon } from "lucide-react";
+import { LayoutDashboard, Wallet, Receipt, BarChart2, User, LucideIcon } from "lucide-react";
 
 interface SideBarOption {
   name: string;
@@ -8,9 +8,9 @@ interface SideBarOption {
 
 export const SideBarOptions: SideBarOption[] = [
   {
-    name: 'Dashboard',
+    name: 'Overview',
     icon: LayoutDashboard,
-    path: '/dashboard',
+    path: '/overview',
   },
   {
     name: 'Jars',
@@ -26,5 +26,10 @@ export const SideBarOptions: SideBarOption[] = [
     name: 'Analytics',
     icon: BarChart2,
     path: '/analytics',
+  },
+  {
+    name: 'Profile',
+    icon: User,
+    path: '/profile',
   },
 ];

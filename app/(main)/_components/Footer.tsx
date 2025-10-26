@@ -9,7 +9,7 @@ import { LayoutDashboard, Wallet, Receipt, BarChart2 } from "lucide-react";
 const Footer: React.FC = () => {
   const footerLinks = {
     platform: [
-      { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
+      { name: "Overview", href: "/overview", icon: LayoutDashboard },
       { name: "Jars", href: "/jars", icon: Wallet },
       { name: "Transactions", href: "/transactions", icon: Receipt },
       { name: "Analytics", href: "/analytics", icon: BarChart2 }

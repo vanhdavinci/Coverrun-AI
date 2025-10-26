@@ -39,8 +39,8 @@ const DashboardHeader: React.FC = () => {
       hasDropdown: false
     },
     {
-      name: "Dashboard",
-      href: "/dashboard",
+      name: "Overview",
+      href: "/overview",
       hasDropdown: false
     },
     {
@@ -231,17 +231,24 @@ const DashboardHeader: React.FC = () => {
                       onMouseLeave={handleUserDropdownLeave}
                     >
                       <div className="w-72 bg-white rounded-lg shadow-xl border border-gray-100 py-4 ml-auto animate-in fade-in slide-in-from-top-2 duration-600">
-                      <div className="px-6 py-4 border-b border-gray-100">
-                        <p className="text-sm font-medium text-gray-900">{user.full_name || 'User'}</p>
-                        <p className="text-xs text-gray-500">{user.email}</p>
-                      </div>
-                      <button
-                        onClick={handleLogout}
-                        className="w-full flex items-center space-x-2 px-6 py-4 text-sm text-red-600 hover:bg-red-50 transition-all duration-150 ease-in-out cursor-pointer"
-                      >
-                        <LogOut className="w-4 h-4" />
-                        <span>Logout</span>
-                      </button>
+                        <div className="px-6 py-4 border-b border-gray-100">
+                          <p className="text-sm font-medium text-gray-900">{user.full_name || 'User'}</p>
+                          <p className="text-xs text-gray-500">{user.email}</p>
+                        </div>
+                        <Link
+                          href="/profile"
+                          className="flex items-center space-x-2 px-6 py-4 text-sm text-gray-700 hover:bg-gray-50 transition-all duration-150 ease-in-out cursor-pointer"
+                        >
+                          <User className="w-4 h-4" />
+                          <span>Profile</span>
+                        </Link>
+                        <button
+                          onClick={handleLogout}
+                          className="w-full flex items-center space-x-2 px-6 py-4 text-sm text-red-600 hover:bg-red-50 transition-all duration-150 ease-in-out cursor-pointer"
+                        >
+                          <LogOut className="w-4 h-4" />
+                          <span>Logout</span>
+                        </button>
                       </div>
                     </div>
                   )}
@@ -321,6 +328,13 @@ const DashboardHeader: React.FC = () => {
                     <p className="text-sm font-medium text-gray-900">{user.full_name || 'User'}</p>
                     <p className="text-xs text-gray-500">{user.email}</p>
                   </div>
+                  <Link
+                    href="/profile"
+                    className="w-full flex items-center justify-center space-x-2 px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded-md transition-all duration-150 cursor-pointer"
+                  >
+                    <User className="w-4 h-4" />
+                    <span>Profile</span>
+                  </Link>
                   <button
                     onClick={handleLogout}
                     className="w-full flex items-center justify-center space-x-2 px-4 py-2 text-sm text-red-600 hover:bg-red-50 rounded-md transition-all duration-150 cursor-pointer"

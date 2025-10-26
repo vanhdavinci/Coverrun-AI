@@ -15,7 +15,7 @@ const AuthCallbackPage: React.FC = () => {
         if (error) throw error;
 
         if (session?.user) {
-          router.push('/dashboard');
+          router.push('/overview');
         }
       } catch (error) {
         console.error('Error in auth callback:', error);

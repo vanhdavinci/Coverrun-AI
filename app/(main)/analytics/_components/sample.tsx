@@ -65,7 +65,7 @@ export default function SavingsChart() {
       });
 
     // 2) Get the Savings jar
-    fetch(`/api/jars/dashboard?userId=${user.id}`)
+    fetch(`/api/jars/overview?userId=${user.id}`)
       .then(res => res.json())
       .then(async (response) => {
         const jars = response.data?.jars || [];

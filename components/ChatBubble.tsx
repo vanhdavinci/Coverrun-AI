@@ -22,7 +22,7 @@ const ChatBubble: React.FC = () => {
             flex items-center justify-center text-white
             ${isOpen 
               ? 'bg-red-500 hover:bg-red-600 rotate-180' 
-              : 'bg-green-600 hover:bg-green-700 hover:scale-110'
+              : 'bg-blue-600 hover:bg-blue-700 hover:scale-110'
             }
           `}
           aria-label={isOpen ? "Đóng chat" : "Mở chat"}
@@ -36,7 +36,7 @@ const ChatBubble: React.FC = () => {
         
         {/* Notification Badge (optional) */}
         {!isOpen && (
-          <div className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full flex items-center justify-center">
+          <div className="absolute -top-1 -right-1 w-4 h-4 bg-gray-700 rounded-full flex items-center justify-center">
             <span className="text-xs text-white font-bold">!</span>
           </div>
         )}
